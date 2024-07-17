@@ -1,0 +1,77 @@
+body {
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+    background-color: #252525;
+    color: #DCDCDC;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+#columnDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#textDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 80%;
+}
+
+
+
+
+
+#buttons {
+    width: 20vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#imageDiv {
+}
+
+#imageDiv img {
+  max-width: 20vw;
+}
+
+#resultText {
+  font-size: 2em;
+}
+
+
+
+#title {
+    text-align: center;
+}
+
+#hintButton{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    background-color: rgb(23, 23, 112);
+    border: 2px solid rgb(77, 77, 77);
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px black;
+}
+#resetButton{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    background-color: rgb(43, 95, 1);
+    border: 2px solid rgb(77, 77, 77);
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px black;
+}
